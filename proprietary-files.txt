@@ -1,4 +1,4 @@
-# Stock package version: Sony/J9210_CN/J9210:11/55.2.A.4.268/055002A004026804257406098:user/release-keys
+# Stock package version: docomo/SO-01M/SO-01M:11/55.2.D.3.22/055002D003002200989647728:user/release-keys
 
 # ANT+
 system_ext/lib/com.qualcomm.qti.ant@1.0.so

@@ -53,18 +53,18 @@ persist.vendor.data.mode=concurrent
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # SOMC
-ro.semc.version.fs_revision=55.2.A.4.268
-ro.semc.version.sw=1320-5254
-ro.semc.version.sw_revision=55.2.A.4.268
-ro.semc.version.sw_variant=GLOBAL-A2
+ro.semc.version.fs_revision=55.2.D.3.22
+ro.semc.version.sw=1318-9806
+ro.semc.version.sw_revision=55.2.D.3.22
+ro.semc.version.sw_variant=DOCOMO-N1
 ro.semc.version.sw_type=user
 ro.semc.content.number=PB2
-ro.semc.product.model=J9210
-ro.semc.ms_type_id=PM-1241-BV
+ro.semc.product.model=SO-01M
+ro.semc.ms_type_id=PM-1242-BV
 ro.semc.version.fs=GENERIC
 ro.semc.product.name=Xperia 5
-ro.semc.product.device=J92
-ro.boot.hardware.sku=J9210
+ro.semc.product.device=J82
+ro.boot.hardware.sku=SO-01M
 
 # Vendor
 ro.vendor.qti.va_aosp.support=1
