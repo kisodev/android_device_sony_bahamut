@@ -71,3 +71,6 @@ ro.vendor.qti.va_aosp.support=1
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# single SIM
+persist.radio.multisim.config=ssss
