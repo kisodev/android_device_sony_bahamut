@@ -3,3 +3,9 @@ on charger
 
 service vendor.secure_element_hal_service /system/bin/true
     disabled
+
+service qcom-c_main-sh /vendor/bin/init.class_main.sh
+    class main
+    user root
+    group root system
+    oneshot
