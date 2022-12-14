@@ -29,7 +29,7 @@ PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := bahamut
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_NAME := lineage_bahamut
-PRODUCT_MODEL := Xperia 5
+PRODUCT_MODEL := SO-01M
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
