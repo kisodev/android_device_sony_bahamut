@@ -1,7 +1,0 @@
-# Set recovery to permissive
-recovery_only(`
-userdebug_or_eng(`
-    permissive init;
-    permissive recovery;
-')
-')
