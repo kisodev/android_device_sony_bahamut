@@ -164,7 +164,11 @@ etc/felica/common.cfg
 etc/felica/common.cfg
 etc/felica/mfs.cfg
 
+# Other lib
+system_ext/lib/vendor.qti.qspmhal@1.0.so
 system_ext/lib64/vendor.qti.qspmhal@1.0.so
+system/lib/imageprocessorjni.so
+system/lib64/imageprocessorjni.so
 
 # SEMC library
 system/framework/com.sony.device.jar
@@ -175,13 +179,13 @@ system/etc/permissions/privapp-permissions-sony.xml
 
 # SEMC Camera
 system/priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk
-system/product/priv-app/CameraCommon/CameraCommon.apk
-system/product/app/CameraCommonPermission/CameraCommonPermission.apk
-system/product/app/CameraAddonPermission/CameraAddonPermission.apk
-system/app/SomcCinemaPro-xxhdpi-release/SomcCinemaPro-xxhdpi-release.apk
-system/priv-app/CameraPanorama-release/CameraPanorama-release.apk
-system/priv-app/com.sonymobile.addoncamera.portraitselfie/com.sonymobile.addoncamera.portraitselfie.apk
-system/priv-app/SemcAlbum-albumLive-release/SemcAlbum-albumLive-release.apk
+system/product/priv-app/CameraCommon/CameraCommon.apk;PRESIGNED
+system/product/app/CameraCommonPermission/CameraCommonPermission.apk;PRESIGNED
+system/product/app/CameraAddonPermission/CameraAddonPermission.apk;PRESIGNED
+system/app/SomcCinemaPro-xxhdpi-release/SomcCinemaPro-xxhdpi-release.apk;PRESIGNED
+system/priv-app/CameraPanorama-release/CameraPanorama-release.apk;PRESIGNED
+system/priv-app/com.sonymobile.addoncamera.portraitselfie/com.sonymobile.addoncamera.portraitselfie.apk;PRESIGNED
+system/priv-app/SemcAlbum-albumLive-release/SemcAlbum-albumLive-release.apk;PRESIGNED
 
 # SEMC Music
-system/priv-app/SemcMusic/SemcMusic.apk
+system/priv-app/SemcMusic/SemcMusic.apk;PRESIGNED
