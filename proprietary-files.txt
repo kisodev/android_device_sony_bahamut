@@ -165,16 +165,21 @@ etc/felica/common.cfg
 etc/felica/mfs.cfg
 
 # Other lib
+system/lib/android.hidl.manager@1.0.so
+system/lib64/android.hidl.manager@1.0.so
+system_ext/lib/android.hidl.base@1.0.so
+system_ext/lib/vendor.qti.qspmhal@1.0.so
+system_ext/lib64/android.hidl.base@1.0.so
+system_ext/lib64/vendor.qti.qspmhal@1.0.so
+
+# SEMC Camera lib
 system/bin/cacaoserver
 system/etc/init/cacaoserver.rc
-system_ext/lib/vendor.qti.qspmhal@1.0.so
-system_ext/lib64/vendor.qti.qspmhal@1.0.so
 system/lib/libimageprocessorjni.so
 system/lib/libcacao_client.so
 system/lib/libcacao_process_ctrl_gateway.so
 system/lib/libcacao_service.so
 system/lib/libcacao_pal.so
-system/lib/android.hidl.manager@1.0.so
 system/lib/vendor.somc.hardware.camera.cacao@1.0.so
 system/lib/vendor.somc.hardware.camera.cacao@2.0.so
 system/lib/vendor.somc.hardware.camera.cacao@3.0.so
@@ -183,9 +188,6 @@ system/lib/vendor.somc.hardware.camera.cacao@3.2.so
 system/lib64/libimageprocessorjni.so
 system/lib64/libcacao_client.so
 system/lib64/libcacao_pal.so
-system/lib64/android.hidl.manager@1.0.so
-
-# SEMC Camera lib
 
 # SEMC library
 product/etc/permissions/com.sonymobile.camera.addon.xml
