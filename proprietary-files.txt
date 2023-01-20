@@ -181,6 +181,7 @@ system/lib/vendor.somc.hardware.camera.cacao@3.1.so
 system/lib/vendor.somc.hardware.camera.cacao@3.2.so
 system/lib64/libimageprocessorjni.so
 system/lib64/libcacao_client.so
+system/lib64/libcacao_pal.so
 
 # SEMC Camera lib
 
