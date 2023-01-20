@@ -185,6 +185,12 @@ system/lib/vendor.somc.hardware.camera.cacao@2.0.so
 system/lib/vendor.somc.hardware.camera.cacao@3.0.so
 system/lib/vendor.somc.hardware.camera.cacao@3.1.so
 system/lib/vendor.somc.hardware.camera.cacao@3.2.so
+system/lib/vendor.somc.hardware.camera.device@1.0.so
+system/lib/vendor.somc.hardware.camera.provider@1.0.so
+system/lib/android.hardware.camera.device@1.0.so
+system/lib/android.hardware.camera.provider@2.4.so
+system/lib/android.hardware.camera.provider@2.5.so
+system/lib/android.hardware.camera.provider@2.6.so
 system/lib64/libimageprocessorjni.so
 system/lib64/libcacao_client.so
 system/lib64/libcacao_pal.so
