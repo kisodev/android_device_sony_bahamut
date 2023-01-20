@@ -4,7 +4,6 @@
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 
-
 # CNE
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar
 system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar
@@ -160,10 +159,6 @@ system_ext/lib64/libwfduibcsrc.so
 system_ext/lib64/libwfduibcsrcinterface.so
 -system_ext/priv-app/WfdService/WfdService.apk
 
-
-# bahamut
-
-
 # FeliCa
 etc/felica/common.cfg
 etc/felica/common.cfg
@@ -171,4 +166,22 @@ etc/felica/mfs.cfg
 
 system_ext/lib64/vendor.qti.qspmhal@1.0.so
 
-# camera firmware
+# SEMC library
+system/framework/com.sony.device.jar
+system/framework/com.sonyericsson.idd_impl.jar
+system/etc/permissions/com.sony.device.xml
+system/etc/permissions/com.sonyericsson.idd.xml
+system/etc/permissions/privapp-permissions-sony.xml
+
+# SEMC Camera
+system/priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk
+system/product/priv-app/CameraCommon/CameraCommon.apk
+system/product/app/CameraCommonPermission/CameraCommonPermission.apk
+system/product/app/CameraAddonPermission/CameraAddonPermission.apk
+system/app/SomcCinemaPro-xxhdpi-release/SomcCinemaPro-xxhdpi-release.apk
+system/priv-app/CameraPanorama-release/CameraPanorama-release.apk
+system/priv-app/com.sonymobile.addoncamera.portraitselfie/com.sonymobile.addoncamera.portraitselfie.apk
+system/priv-app/SemcAlbum-albumLive-release/SemcAlbum-albumLive-release.apk
+
+# SEMC Music
+system_ext/priv-app/SemcMusic/SemcMusic.apk
