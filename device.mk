@@ -173,7 +173,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    lib-imsvtshim
+    lib-imsvtshim \
+    lib-camshim
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
