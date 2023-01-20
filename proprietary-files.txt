@@ -168,7 +168,9 @@ etc/felica/mfs.cfg
 system_ext/lib/vendor.qti.qspmhal@1.0.so
 system_ext/lib64/vendor.qti.qspmhal@1.0.so
 system/lib/libimageprocessorjni.so
+system/lib/libcacao_client.so
 system/lib64/libimageprocessorjni.so
+system/lib64/libcacao_client.so
 
 # SEMC library
 system/framework/com.sony.device.jar
