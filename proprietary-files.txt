@@ -184,4 +184,4 @@ system/priv-app/com.sonymobile.addoncamera.portraitselfie/com.sonymobile.addonca
 system/priv-app/SemcAlbum-albumLive-release/SemcAlbum-albumLive-release.apk
 
 # SEMC Music
-system_ext/priv-app/SemcMusic/SemcMusic.apk
+system/priv-app/SemcMusic/SemcMusic.apk
