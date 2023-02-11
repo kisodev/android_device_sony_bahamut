@@ -15,6 +15,7 @@
 #
 
 DEVICE_PATH := device/sony/bahamut
+PREBUILT_PATH := device/sony/bahamut-prebuilt
 
 BOARD_VENDOR := sony
 
@@ -65,6 +66,7 @@ TARGET_BOARD_PLATFORM := msmnile
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=2048 loop.max_part=16 androidboot.usbcontroller=a600000.dwc3 buildproduct=bahamut_dsds buildid=KUMANO-1.2.0-210818-1151 panic_on_err=1
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
@@ -159,6 +161,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 TARGET_COPY_OUT_ODM := vendor/odm
 TARGET_COPY_OUT_PRODUCT := system/product
 TARGET_COPY_OUT_VENDOR := vendor
+
+BOARD_PREBUILT_VENDORIMAGE := $(PREBUILT_PATH)/vendor.img
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
