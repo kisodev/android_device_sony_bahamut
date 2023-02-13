@@ -162,6 +162,7 @@ TARGET_COPY_OUT_ODM := vendor/odm
 TARGET_COPY_OUT_PRODUCT := system/product
 TARGET_COPY_OUT_VENDOR := vendor
 
+BUILD_WITHOUT_VENDOR := true
 BOARD_PREBUILT_VENDORIMAGE := $(PREBUILT_PATH)/vendor.img
 
 # Recovery
@@ -180,11 +181,17 @@ include device/qcom/sepolicy/SEPolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
+BOARD_AVB_VBMETA_SYSTEM := system vendor
+BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA2048
+BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
+BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
+BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
 -include vendor/sony/bahamut/BoardConfigVendor.mk

@@ -196,7 +196,7 @@ system/lib64/libcacao_client.so
 system/lib64/libcacao_pal.so
 
 # SEMC library
-product/app/ImageProcessorPermission/ImageProcessorPermission.apk;PRESIGNED
+product/app/ImageProcessorPermission/ImageProcessorPermission.apk
 system/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar
 system/etc/permissions/com.sonymobile.imageprocessor.xml
 product/etc/permissions/com.sonymobile.camera.addon.xml
@@ -208,14 +208,15 @@ system/etc/permissions/com.sonyericsson.idd.xml
 system/etc/permissions/privapp-permissions-sony.xml
 
 # SEMC Camera
-system/priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk;PRESIGNED
-system/product/priv-app/CameraCommon/CameraCommon.apk;PRESIGNED
-system/product/app/CameraCommonPermission/CameraCommonPermission.apk;PRESIGNED
-system/product/app/CameraAddonPermission/CameraAddonPermission.apk;PRESIGNED
-system/app/SomcCinemaPro-xxhdpi-release/SomcCinemaPro-xxhdpi-release.apk;PRESIGNED
-system/priv-app/CameraPanorama-release/CameraPanorama-release.apk;PRESIGNED
-system/priv-app/com.sonymobile.addoncamera.portraitselfie/com.sonymobile.addoncamera.portraitselfie.apk;PRESIGNED
-system/priv-app/SemcAlbum-albumLive-release/SemcAlbum-albumLive-release.apk;PRESIGNED
+system/priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk
+product/priv-app/CameraCommon/CameraCommon.apk
+product/app/CameraCommonPermission/CameraCommonPermission.apk
+product/app/CameraAddonPermission/CameraAddonPermission.apk
+system/app/SomcCinemaPro-xxhdpi-release/SomcCinemaPro-xxhdpi-release.apk
+system/priv-app/CameraPanorama-release/CameraPanorama-release.apk
+system/priv-app/com.sonymobile.addoncamera.portraitselfie/com.sonymobile.addoncamera.portraitselfie.apk
+system/priv-app/SemcAlbum-albumLive-release/SemcAlbum-albumLive-release.apk
+system/priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk
 
 # SEMC Music
 system/priv-app/SemcMusic/SemcMusic.apk;PRESIGNED
