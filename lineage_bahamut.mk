@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2020 The LineageOS Project
+# Copyright (C) 2018-2023 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,29 +17,26 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
-# Inherit from common.mk
+# Inherit from device.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := Sony
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+IS_PHONE := true
+
+PRODUCT_NAME := lineage_bahamut
 PRODUCT_DEVICE := bahamut
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_NAME := lineage_bahamut
+PRODUCT_BRAND := Sony
 PRODUCT_MODEL := SO-01M
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
-TARGET_VENDOR_PRODUCT_NAME := bahamut
-
-# Fingerprint
-BUILD_FINGERPRINT := docomo/SO-01M/SO-01M:11/55.2.D.3.22/055002D003002200989647728:user/release-keys
-BUILD_DESCRIPTION := docomo-user 55.2.D.3.22 055002D003002200989647728 release-keys
-
-PRODUCT_PROPERTY_OVERRIDES += 
+PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=SO-01M \
     TARGET_PRODUCT=SO-01M \
-    PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
+    PRIVATE_BUILD_DESC="SO-01M-user 12 58.2.B.0.520 058002B000052002813269650 release-keys"
+
+BUILD_FINGERPRINT := docomo/SO-01M/SO-01M:12/58.2.B.0.520/058002B000052002813269650:user/release-keys
