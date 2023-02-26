@@ -1,0 +1,4 @@
+# Stock package version: docomo/SO-01M/SO-01M:11/55.2.D.3.22/055002D003002200989647728:user/release-keys
+
+# SEMC Music
+system/priv-app/SemcMusic/SemcMusic.apk;PRESIGNED
