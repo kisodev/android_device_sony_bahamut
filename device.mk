@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2023 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,8 +22,8 @@
 # definition file).
 #
 
-# Inherit from sony sm8250-common
-$(call inherit-product, device/sony/sm8250-common/edo.mk)
+# Inherit from sony sm8150-common
+$(call inherit-product, device/sony/sm8150-common/common.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2520
@@ -39,9 +39,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    SonyPDX206FrameworksRes \
-    SonyPDX206SettingsRes \
-    SonyPDX206SystemUIRes
+    SonyBahamutFrameworksRes \
+    SonyBahamutSystemUIRes
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
@@ -55,4 +54,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx206/pdx206-vendor.mk)
+$(call inherit-product, vendor/sony/bahamut/bahamut-vendor.mk)

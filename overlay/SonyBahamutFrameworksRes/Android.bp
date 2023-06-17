@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SonyPDX206SystemUIRes",
-    device_specific: true,
+    name: "SonyBahamutFrameworksRes",
+    vendor: true,
 }

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2023 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,17 +26,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 IS_PHONE := true
 
-PRODUCT_NAME := lineage_pdx206
-PRODUCT_DEVICE := pdx206
+PRODUCT_NAME := lineage_bahamut
+PRODUCT_DEVICE := bahamut
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := XQ-AS72
+PRODUCT_MODEL := Xperia 5
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=XQ-AS72 \
-    TARGET_PRODUCT=XQ-AS72 \
-    PRIVATE_BUILD_DESC="XQ-AS72-user 12 58.2.A.10.126 058002A010012603718185433 release-keys"
+    TARGET_DEVICE=J9210 \
+    TARGET_PRODUCT=J9210 \
+    PRIVATE_BUILD_DESC="J9210-user 11 55.2.A.4.332 055002A004033203408384484 release-keys"
 
-BUILD_FINGERPRINT := Sony/XQ-AS72/XQ-AS72:12/58.2.A.10.126/058002A010012603718185433:user/release-keys
+BUILD_FINGERPRINT := Sony/J9210/J9210:11/55.2.A.4.332/055002A004033203408384484:user/release-keys
