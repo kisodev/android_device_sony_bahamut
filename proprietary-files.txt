@@ -7,6 +7,25 @@ vendor/etc/acdbdata/Sony_kumano_Headset_cal.acdb
 vendor/etc/acdbdata/Sony_kumano_Speaker_cal.acdb
 vendor/etc/acdbdata/workspaceFile_Sony_kumano.qwsp
 
+# ATFWD
+vendor/bin/ATFWD-daemon
+
+# Audio extensions
+vendor/lib/libhdmipassthru.so
+vendor/lib64/libhdmipassthru.so
+
+# Audio firmware
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libaudcal.so
+vendor/lib64/libacdb-fts.so
+vendor/lib64/libacdbloader.so
+vendor/lib64/libacdbrtac.so
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
+
 # Audio FX Modules
 vendor/etc/sony_effect/clearphase_sp_param.bin
 vendor/etc/sony_effect/effect_params.data
@@ -29,6 +48,15 @@ vendor/etc/sony_effect/znr_48k_TeleCam.tbl
 vendor/etc/sony_effect/znr_48k_WideCam.tbl
 vendor/etc/sony_effect/znr_48k_defaultCam.tbl
 vendor/etc/sony_effect/znr_parameter.xml
+vendor/lib/soundfx/libswdap.so
+vendor/lib64/soundfx/libswdap.so
+
+# Bluetooth
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+
+# Cacaoserver
+vendor/lib/libcacao_process_ctrl.so
 
 # Camera
 vendor/camera/CHI08BS1/bokeh_comp.dat
@@ -629,7 +657,6 @@ vendor/camera/display_ctrl.dat
 vendor/camera/file_animal_eye_detector.dat
 vendor/camera/file_face_detector.dat
 vendor/camera/flash.dat
-vendor/camera/illumination_api.lock
 vendor/camera/optical_zoom.dat
 vendor/camera/snapshot.dat
 vendor/camera/streaming.dat
@@ -637,6 +664,24 @@ vendor/camera/supported.dat
 vendor/camera/version.dat
 vendor/lib/camera/com.sony.sensormodule.vulture_imx563.bin
 vendor/lib/camera/com.sony.sensormodule.vulture_s5k3m3.bin
+
+# Camera libs
+vendor/lib/camera/libexcal_bokeh_comp_plugin.so
+vendor/lib/camera/libexcal_face_detector_plugin.so
+vendor/lib/camera/libexcal_hal_ctrl_plugin.so
+vendor/lib/camera/libexcal_image_conv_plugin.so
+vendor/lib/camera/libexcal_jpeg_enc_plugin.so
+vendor/lib/camera/libexcal_raw_conv_plugin.so
+vendor/lib/camera/libexcal_raw_proc_plugin.so
+vendor/lib/camera/libexcal_req_ctrl_plugin.so
+vendor/lib/libcammw.so
+vendor/lib/libcammw_util.so
+vendor/lib/libexcal_core.so
+vendor/lib/libexcal_system.so
+vendor/lib/libsomc_camerapal.so
+vendor/lib/libsomc_chokoballpal.so
+vendor/lib64/libcammw_util.so
+vendor/lib64/libsomc_camerapal.so
 
 # Charger
 vendor/etc/chg-pwr-service.cfg
@@ -646,9 +691,21 @@ vendor/etc/qdcm_calib_data_4.xml
 
 # Display (HDR)
 vendor/etc/libhdr_somc.xml
+vendor/lib64/libhdr_tm.so
 
-# Sensor configs
-vendor/etc/sensors/registry/config/msmnile_ak991x_0_somc_product.json
+# Fingerprint firmware
+vendor/lib64/libets_teeclient_v2.so
+
+# GNSS
+vendor/bin/slim_daemon
+vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
+vendor/lib64/liblbs_core.so
+vendor/lib64/libloc_api_v02.so
+vendor/lib64/liblocationservice.so
+vendor/lib64/libslimclient.so
+
+# Keyprov
+vendor/bin/keyprovd
 
 # Thermal configs
 vendor/etc/change.cfg
@@ -674,6 +731,10 @@ vendor/firmware/a640_zap.b01
 vendor/firmware/a640_zap.b02
 vendor/firmware/a640_zap.mdt
 
+# Illumination
+vendor/bin/hw/illumination_service
+vendor/camera/illumination_api.lock
+
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
@@ -688,6 +749,109 @@ vendor/firmware/ipa_uc.b01
 vendor/firmware/ipa_uc.b02
 vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
+
+# Listen
+vendor/lib/libgcs-calwrapper.so
+vendor/lib/libgcs-ipc.so
+vendor/lib/libgcs.so
+vendor/lib64/libgcs-calwrapper.so
+vendor/lib64/libgcs-ipc.so
+vendor/lib64/libgcs.so
+
+# Modem
+vendor/bin/mlog_qmi_service
+
+# OMX
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxAlacDec.so
+vendor/lib/libOmxAmrDec.so
+vendor/lib/libOmxAmrwbplusDec.so
+vendor/lib/libOmxApeDec.so
+vendor/lib/libOmxG711Dec.so
+vendor/lib/libOmxSwVdec.so
+vendor/lib/libOmxSwVencMpeg4.so
+vendor/lib/libOmxVpp.so
+vendor/lib/libOmxWmaDec.so
+vendor/lib64/libOmxAacDec.so
+vendor/lib64/libOmxAlacDec.so
+vendor/lib64/libOmxAmrDec.so
+vendor/lib64/libOmxAmrwbplusDec.so
+vendor/lib64/libOmxApeDec.so
+vendor/lib64/libOmxG711Dec.so
+vendor/lib64/libOmxSwVdec.so
+vendor/lib64/libOmxSwVencMpeg4.so
+vendor/lib64/libOmxVpp.so
+vendor/lib64/libOmxWmaDec.so
+
+# Others
+vendor/bin/hal_proxy_daemon
+vendor/bin/loadalgo
+
+# QMI
+vendor/lib/libdsi_netctrl.so
+vendor/lib/libqdi.so
+vendor/lib/libqmi.so
+vendor/lib64/libdsi_netctrl.so
+vendor/lib64/libqdi.so
+vendor/lib64/libqmi.so
+
+# Qteeconnector
+vendor/bin/netmgrd
+vendor/bin/pd-mapper
+vendor/bin/rmt_storage
+vendor/lib64/libconfigdb.so
+vendor/lib64/liblqe.so
+vendor/lib64/libnetmgr.so
+vendor/lib64/libnetmgr_common.so
+vendor/lib64/libpdmapper.so
+vendor/lib64/libpdnotifier.so
+vendor/lib64/libril-qc-hal-qmi.so
+vendor/lib64/libril-qc-logger.so
+vendor/lib64/libril-qc-ltedirectdisc.so
+vendor/lib64/libril-qc-radioconfig.so
+vendor/lib64/librilqmiservices.so
+vendor/lib64/libsettings.so
+
+# Qseecomd
+vendor/bin/qseecomd
+
+# SCT QMI service
+vendor/bin/sct_service
+
+# SECD
+vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
+
+# Sensor configs
+vendor/etc/sensors/registry/config/msmnile_ak991x_0_somc_product.json
+
+# SSR
+vendor/bin/ssr_setup
+
+# TA QMI
+vendor/bin/ta_qmi_service
+
+# VPP
+vendor/lib/libpfter.so
+vendor/lib/libvppclient.so
+vendor/lib/libvpplibrary.so
+vendor/lib64/libpfter.so
+vendor/lib64/libvppclient.so
+vendor/lib64/libvpplibrary.so
+
+# WiFi Display (vendor)
+vendor/lib/libwfdcodecv4l2_proprietary.so
+vendor/lib/libwfdmmsrc_proprietary.so
+vendor/lib/libwfdmodulehdcpsession.so
+vendor/lib/libwfdsessionmodule.so
+vendor/lib/libwfdutils_proprietary.so
+
+# Widevine DRM
+vendor/lib/libhdcprx_module.so
+vendor/lib/libhdcptx_module.so
+vendor/lib/liboemcrypto.so
+vendor/lib64/libhdcprx_module.so
+vendor/lib64/libhdcptx_module.so
+vendor/lib64/liboemcrypto.so
 
 # WLAN
 vendor/etc/wifi/wifi_txpower.conf
