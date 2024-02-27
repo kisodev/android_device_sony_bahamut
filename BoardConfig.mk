@@ -15,7 +15,7 @@
 #
 
 # Inherit from sony sm8150-common
--include device/sony/sm8150-common/BoardConfigCommon.mk
+include device/sony/sm8150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/bahamut
 
@@ -39,4 +39,4 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
--include vendor/sony/bahamut/BoardConfigVendor.mk
+include vendor/sony/bahamut/BoardConfigVendor.mk
