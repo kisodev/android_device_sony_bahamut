@@ -7,9 +7,6 @@ vendor/etc/acdbdata/Sony_kumano_Headset_cal.acdb
 vendor/etc/acdbdata/Sony_kumano_Speaker_cal.acdb
 vendor/etc/acdbdata/workspaceFile_Sony_kumano.qwsp
 
-# ATFWD
-vendor/bin/ATFWD-daemon
-
 # Audio FX Modules
 vendor/etc/sony_effect/clearphase_sp_param.bin
 vendor/etc/sony_effect/effect_params.data
