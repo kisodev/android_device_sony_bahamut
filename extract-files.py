@@ -11,7 +11,13 @@ from extract_utils.main import (
 
 namespace_imports = [
     'vendor/sony/sm8150-common',
+    'hardware/qcom-caf/sm8150',
     'hardware/qcom-caf/wlan',
+    'hardware/sony',
+    'vendor/qcom/opensource/commonsys/display',
+    'vendor/qcom/opensource/commonsys-intf/display',
+    'vendor/qcom/opensource/dataservices',
+    'vendor/qcom/opensource/display',
 ]
 
 module = ExtractUtilsModule(
