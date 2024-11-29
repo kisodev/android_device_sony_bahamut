@@ -645,26 +645,6 @@ vendor/etc/qdcm_calib_data_4.xml
 
 # Display (HDR)
 vendor/etc/libhdr_somc.xml
-vendor/lib64/libhdr_tm.so
-
-# GNSS
-vendor/bin/slim_daemon
-
-# Keyprov
-vendor/bin/keyprovd
-
-# Thermal configs
-vendor/etc/change.cfg
-
-# Thermal engine
-vendor/etc/thermal-engine.conf
-
-# Touchscreen firmware
-vendor/firmware/touch_module_id_0x61.img
-
-# Wifi firmware
-vendor/bin/cnss-daemon
-vendor/etc/wifi/bdwlan.bin
 
 # Graphics (Adreno firmware)
 vendor/firmware/a612_rgmu.bin
@@ -696,30 +676,21 @@ vendor/firmware/ipa_uc.b02
 vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
 
-# Modem
-vendor/bin/mlog_qmi_service
-
-# Qteeconnector
-vendor/bin/pd-mapper
-vendor/bin/rmt_storage
-
-# Qseecomd
-vendor/bin/qseecomd
-
-# SCT QMI service
-vendor/bin/sct_service
-
-# SECD
-vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
-
 # Sensor configs
 vendor/etc/sensors/registry/config/msmnile_ak991x_0_somc_product.json
 
-# SSR
-vendor/bin/ssr_setup
+# Thermal configs
+vendor/etc/change.cfg
 
-# TA QMI
-vendor/bin/ta_qmi_service
+# Thermal engine
+vendor/etc/thermal-engine.conf
+
+# Touchscreen firmware
+vendor/firmware/touch_module_id_0x61.img
+
+# Wifi firmware
+vendor/bin/cnss-daemon
+vendor/etc/wifi/bdwlan.bin
 
 # WLAN
 vendor/etc/wifi/wifi_txpower.conf
